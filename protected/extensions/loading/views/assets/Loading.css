@@ -1,0 +1,20 @@
+#loading{
+    background-image: url(loading_big.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    z-index: 999999;
+    top:50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    
+    opacity: 0.3;
+    background-color: #E6EFC2;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    border: 1px solid #C6D880;
+    color:#666;
+    display: none;
+}
