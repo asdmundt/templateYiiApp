@@ -1,5 +1,0 @@
-#Phpcsmd options
-#Thu Oct 22 04:24:14 CEST 2015
-phpcsmd.phpmd.static=
-phpcsmd.phpcs.static=
-phpcsmd.phpcpd.static=
