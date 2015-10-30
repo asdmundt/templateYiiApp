@@ -1,0 +1,76 @@
+Kontaktmodule Version: 1.1.1-RC0-326
+
+
+Installation oder Aktualisierung (für Anwendungsserver im lokalen Netzwerk)
+################################################################################
+Eine Installation erfolgt automatisch. Der Anwendungsserver zeigt automatisch an, ob für die
+Anwendung oder für eines der Module Aktualisierungen vorliegen. Ist dies der Fall wird es auf der Start Seite
+des Servers angezeigt.
+Die Anwendung sowie jedes modul einer Anw. hat eine version.txt im jeweiligen root Verz. .
+In dieser Datei steht in einer Zeile das
+
+##Changelog
+################################################################################
+
+MileStone 1.2.0
+ 
+ # 121 chg: index des kontakt modules ändern
+ # 122 enh: tabs in kontakte list _view
+ # 123 chg: create und update des kontaktes als Dialog 
+ # 124 enh: google maps Ansicht aus address Daten erstellen.
+ # 125 enh: Bankdaten in Kontakt Formula integrieren.
+ # 126 chg: view Ansicht in 4col. View geändert.
+
+Release 1.1.1
+
+ #6 Chg: kontakt moduleformview in dialog legen
+ #7 Chg : ändern der formview
+- bug: fehler bei ändern oder hinzufügen eines Kontaktes
+
+
+Release 1.1.0
+
+- Enh : dependentdropdown für Städte, Zipcode in forms.php
+
+
+
+Versions Hilfe
+################################################################################
+
+<major>.<minor>.<patch>-<AbnahmeUmgebung oder TestUmgebung (rc release candidate)>-<Revisionsnr, bzw alpha version oder build Datum>
+
+<major> Tiefgreifende Änderungen die nicht die Abwärts Kompatiblität einhalten
+<minor> Neue Funktionen Kompatibilität gewährleistet
+<patch> Bugfixes und refacturing changes
+<rc release candidate> fortlaufende Nummer für neues bauen einer Software, innerhalb enes Releases. Z.B. In der Test Phase wird ein Fehler gefunden und die Software
+                        wird gefixt und neu getestet
+<build- Nr oder Datum> Datum des Exports aus der Versionsverwaltung
+ 
+
+Bis Prod. müssen installierte Module, ohne Aenderungen an dem Basisprogramm lauffähig sein.
+Texte müssen aus txt_[kürzel für sprache] array kommen und per Konfiguration zu schalten sein.
+error message system. errors in log werden an admin per user message gesendet und müssen quittiert werden.
+Versioning
+----------
+
+Eine klassische Versionsnummer setzt sich häufig zusammen:
+Hauptversionsnummer
+(englisch: major release) indiziert meist äußerst signifikante Änderung am Programm – zum Beispiel wenn das Programm komplett neu geschrieben wurde (zum Beispiel GIMP 1.x nach 2.x) oder sich bei Bibliotheken keine Schnittstellenkompatiblität aufrechterhalten lässt.
+Nebenversionsnummer
+(englisch: minor release) bezeichnet meistens die funktionelle Erweiterung des Programms.
+Revisionsnummer
+(englisch: patch level) enthält meist Fehlerbehebungen.
+Buildnummer oder
+(englisch: build number) kennzeichnet in der Regel den Fortschritt der Entwicklungsarbeit in Einzelschritten, wird also zum Beispiel bei 0001 beginnend mit jedem Kompilieren des Codes um eins erhöht. Version 5.0.0-3242 stünde also für das 3242. Kompilationsprodukt einer Software. Verwendet man Versionskontrollsysteme, so wird an Stelle der Build-Nummer gerne eine Nummer verwendet, die die Quellen zum Kompilat innerhalb des Versionskontrollsystems eindeutig identifiziert. Das erleichtert bei Vorkommen eines Bugs die betreffenden Quellen zu finden.
+Beispiel für die 2. Version eines Programms, in der 3. Nebenversion und in der 5. Fehlerkorrektur, Build 0041:
+2.3.5-0041
+│ │ │  └────── Buildnummer
+│ │ └───────── Revisionsnummer
+│ └─────────── Nebenversionsnummer
+└───────────── Hauptversionsnummer
+Jede dieser Versionsnummern kann auch aus mehreren Ziffern bestehen. Zum Beispiel folgt nach Version 0.9, wenn sich nur die Nebenversion erhöht, 0.10 und nicht 1.0. Bei manchen Programmen ist daher die Nebenversionsnummer zweistellig oder enthält eine führende Null wenn mit mehr als zehn Versionen dieser Art zu rechnen ist (Beispiel: 0.09).
+Häufig bildet die Hauptversion mit der Nummer 0 insofern eine Ausnahme, dass auch bei einer Erhöhung der Nebenversion größere Änderungen möglich sind.
+Grundsätzlich gibt es für die Bedeutung der einzelnen Werte jedoch keine festen Vorgaben, vielmehr haben sich Quasi-Standards etabliert: Unter .NET folgt man z. B. dem gegenüber abweichenden Schema <Hauptversionsnummer>.<Nebenversionsnummer>.<Buildnummer>.<Revisionsnummer>[1] (vertauschte Position für Revisionsnummer und Buildnummer).
+Zu einem Versionsstand an einem beliebigen Zeitpunkt sagt man auch Build. Die Build-Nummer wird in vielen Projekten unabhängig von den anderen Nummern erhöht und nicht zurückgesetzt. Zum Beispiel gibt es bei Microsoft Windows zwei Produktreihen: in der Reihe Windows 95 sind die Builds 950 (Windows 95), 1998 (Windows 98) und 2222 (Windows 98 SE) bekannt, in der Reihe Windows NT sind dies die Builds 1381 (Windows NT 4.0 Service Pack 6), 2600 (Windows XP), 6000 (Windows Vista) und 7600 (Windows 7).
+Oftmals ist es – vor allem bei Open-Source-Software – der Fall, dass sich die Versionsnummern von Programmen oder Systemen noch vor der Version 1.x befinden. Dies deutet jedoch nicht zwingend darauf hin, dass die Entwicklung noch nicht weit fortgeschritten ist, sondern eher, dass die Version noch nicht das von den Entwicklern gesteckte Ziel erreicht hat und sich weiterhin in der Entwicklung befindet. Teilweise gibt es sogar Open-Source-Programme, die - obwohl sie den Alpha- und Beta-Status längst verlassen haben - weiterhin noch unterhalb der Version 1.0 versioniert sind.
+Eine Versionsnummer wird oft nach dem Programmnamen angeführt und manchmal durch „v.“ oder „V“ (für Version) speziell gekennzeichnet.
