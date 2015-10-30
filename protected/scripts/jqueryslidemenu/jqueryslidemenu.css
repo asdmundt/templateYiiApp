@@ -1,0 +1,119 @@
+.jqueryslidemenu{
+font: bold 12px Verdana;
+
+    height: 24px;
+    border-left: 1px solid #83a9bf;
+    border-right: 1px solid #83a9bf;
+width: 100%;
+}
+
+.jqueryslidemenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.jqueryslidemenu ul li{
+position: relative;
+display: inline;
+float: left;
+
+}
+
+
+/*Top level menu link items style*/
+.jqueryslidemenu ul li a{
+color:#1D5987;
+        
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:2px 8px;
+      
+}
+
+* html .jqueryslidemenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited{
+color: #1D5987;
+}
+
+.jqueryslidemenu ul li a:hover{
+background: #EEF6FB; /*tab link background during hover state*/
+color: white;
+background: #EEF6FB;
+border-top:1px solid #8BB8DA;
+border-right:1px solid #8BB8DA;
+border-left:1px solid #8BB8DA;
+-moz-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+-webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+}
+	
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+position: absolute;
+left: 0;
+display: block;
+background: #EEF6FB;
+border-top:1px solid #8BB8DA;
+border-right:1px solid #8BB8DA;
+border-left:1px solid #8BB8DA;
+-moz-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+-webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+visibility: hidden;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jqueryslidemenu ul li ul li{
+display: list-item;
+float: none;
+}
+
+
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jqueryslidemenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a{
+font: normal 13px Verdana;
+width: 160px; /*width of sub menus*/
+padding: 5px;
+margin: 0;
+background: #EEF6FB;
+}
+
+.jqueryslidemenu ul li ul li a:hover{ /*sub menus hover style*/
+background: #8BB8DA;
+border-top:0px solid #8BB8DA;
+border-right:0px solid #8BB8DA;
+border-left:0px solid #8BB8DA;
+-moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+color: black;
+padding: 5px;
+}
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+background: transparent url(down.gif) no-repeat;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+background: transparent url(right.png) no-repeat;
+}
