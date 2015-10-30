@@ -1,0 +1,16 @@
+Please visit http://bitbucket.org/TeamTPG/editme/wiki/
+
+<?php
+//Example without model
+$this->widget('ext.editMe.widgets.ExtEditMe', array(
+    'name'=>'example',
+    'value'=>'',
+    'optionName'=>'optionValue',
+));
+ 
+//Example with model
+$this->widget('ext.editMe.widgets.ExtEditMe', array(
+    'model'=>$modelInstance,
+    'attribute'=>'example',
+    'optionName'=>'optionValue',
+));

@@ -1,0 +1,122 @@
+/* 
+    Document   : dokumenteModule
+    Created on : 19.03.2013, 00:27:15
+    Author     : asdmundt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@media only screen and (max-width: 767px) {
+    
+}
+#gridfileleftdiv{
+    float:left;
+    
+}
+
+#gridfilerightdiv{
+    float:right;
+    
+}
+
+.actiongrid{
+    position: relative;
+display: inline;
+font-size: 0;
+white-space: normal;
+vertical-align: top;
+width: 100%;
+direction: ltr;
+}
+
+#bttnFileActleft{
+   position: relative;
+   left: 30px;
+   top: 0px;
+   display: inline;
+}
+#bttnFileActright{
+   position: relative;
+   left: 30px;
+   top: 0px;
+   display: inline;
+}
+div.listtlb{
+    position: relative;
+display: inline;
+
+white-space: normal;
+vertical-align: top;
+width: 100%;
+
+}
+.tlb{float: right;display: inline;}
+
+/* Core Styles action_paste.gif */
+A.folder { background: url(filetypeicons/directory.png) left top no-repeat; }
+A.expanded { background: url(filetypeicons/folder_open.png) left top no-repeat; }
+A.file { background: url(filetypeicons/file.png) left top no-repeat; }
+A.wait { background: url(filetypeicons/spinner.gif) left top no-repeat; }
+A.paste { background: url(filetypeicons/action_paste.gif) left top no-repeat; }
+/* File Extensions*/
+
+A.afp { background: url(filetypeicons/code.png) left top no-repeat; }
+A.afpa { background: url(filetypeicons/code.png) left top no-repeat; }
+A.asp { background: url(filetypeicons/code.png) left top no-repeat; }
+A.aspx { background: url(filetypeicons/code.png) left top no-repeat; }
+A.avi { background: url(filetypeicons/film.png) left top no-repeat; }
+A.bat { background: url(filetypeicons/application.png) left top no-repeat; }
+A.bmp { background: url(filetypeicons/picture.png) left top no-repeat; }
+A.c { background: url(filetypeicons/code.png) left top no-repeat; }
+A.cfm { background: url(filetypeicons/code.png) left top no-repeat; }
+A.cgi { background: url(filetypeicons/code.png) left top no-repeat; }
+A.com { background: url(filetypeicons/application.png) left top no-repeat; }
+A.cpp { background: url(filetypeicons/code.png) left top no-repeat; }
+A.css { background: url(filetypeicons/css.png) left top no-repeat; }
+A.doc { background: url(filetypeicons/doc.png) left top no-repeat; }
+A.exe { background: url(filetypeicons/application.png) left top no-repeat; }
+A.gif { background: url(filetypeicons/picture.png) left top no-repeat; }
+A.fla { background: url(filetypeicons/flash.png) left top no-repeat; }
+A.h { background: url(filetypeicons/code.png) left top no-repeat; }
+A.htm { background: url(filetypeicons/html.png) left top no-repeat; }
+A.html { background: url(filetypeicons/html.png) left top no-repeat; }
+A.jar { background: url(filetypeicons/java.png) left top no-repeat; }
+A.jpg { background: url(filetypeicons/picture.png) left top no-repeat; }
+A.jpeg { background: url(filetypeicons/picture.png) left top no-repeat; }
+A.js { background: url(filetypeicons/script.png) left top no-repeat; }
+A.lasso { background: url(filetypeicons/code.png) left top no-repeat; }
+A.log { background: url(filetypeicons/txt.png) left top no-repeat; }
+A.m4p { background: url(filetypeicons/music.png) left top no-repeat; }
+A.mov { background: url(filetypeicons/film.png) left top no-repeat; }
+A.mp3 { background: url(filetypeicons/music.png) left top no-repeat; }
+A.mp4 { background: url(filetypeicons/film.png) left top no-repeat; }
+A.mpg { background: url(filetypeicons/film.png) left top no-repeat; }
+A.mpeg { background: url(filetypeicons/film.png) left top no-repeat; }
+A.ogg { background: url(filetypeicons/music.png) left top no-repeat; }
+A.pcx { background: url(filetypeicons/picture.png) left top no-repeat; }
+A.pdf { background: url(filetypeicons/pdf.png) left top no-repeat; }
+A.php { background: url(filetypeicons/php.png) left top no-repeat; }
+A.png { background: url(filetypeicons/picture.png) left top no-repeat; }
+A.ppt { background: url(filetypeicons/ppt.png) left top no-repeat; }
+A.psd { background: url(filetypeicons/psd.png) left top no-repeat; }
+A.pl { background: url(filetypeicons/script.png) left top no-repeat; }
+A.py { background: url(filetypeicons/script.png) left top no-repeat; }
+A.rb { background: url(filetypeicons/ruby.png) left top no-repeat; }
+A.rbx { background: url(filetypeicons/ruby.png) left top no-repeat; }
+A.rhtml { background: url(filetypeicons/ruby.png) left top no-repeat; }
+A.rpm { background: url(filetypeicons/linux.png) left top no-repeat; }
+A.ruby { background: url(filetypeicons/ruby.png) left top no-repeat; }
+A.sql { background: url(filetypeicons/db.png) left top no-repeat; }
+A.swf { background: url(filetypeicons/flash.png) left top no-repeat; }
+A.tif { background: url(filetypeicons/picture.png) left top no-repeat; }
+A.tiff { background: url(filetypeicons/picture.png) left top no-repeat; }
+A.txt { background: url(filetypeicons/txt.png) left top no-repeat; }
+A.vb { background: url(filetypeicons/code.png) left top no-repeat; }
+A.wav { background: url(filetypeicons/music.png) left top no-repeat; }
+A.wmv { background: url(filetypeicons/film.png) left top no-repeat; }
+A.xls { background: url(filetypeicons/xls.png) left top no-repeat; }
+A.xml { background: url(filetypeicons/code.png) left top no-repeat; }
+A.zip { background: url(filetypeicons/zip.png) left top no-repeat; }
+
+
+
+
